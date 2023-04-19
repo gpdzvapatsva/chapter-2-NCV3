@@ -1,25 +1,26 @@
 #include <iostream>
 using namespace std;
-//non parameter void function prototype
-string myFullname();
-int main()
+//declare a function prototype of boolean type
+double larger();
+int main() {
+    double biggest=0;
+    biggest=larger();
+    cout<<"the larger number is "<< biggest<<endl;
+return 0;
+  }
+
+
+double larger()
 {
-    string result="";
-//calling the function
-result= myFullname();
-cout<<result<<endl;
-    return 0;
+double num1, num2;
+cin>>num1;
+cin>> num2;
+double largest;
+if (num1>= num2){
+largest = num1;
 }
-
-string myFullname(){
-string fullname, firstname="", surname="";
-cout<<"Please enter your first name"<<endl;
-cin>>firstname;
-cout<<"Please enter your surname"<<endl;
-cin>>surname;
-fullname="My fullname is " + firstname + " " + surname ;
-return  fullname, "I am a string function";
+else{
+largest = num2;
 }
-
-
-
+return largest;
+}
