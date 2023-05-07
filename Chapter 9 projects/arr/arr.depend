@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1682844135 source:c:\users\gdzvapatsva\desktop\level 3 technical programming\chapter 9 projects\arr\main.cpp
+	<iostream>
+	<cstdlib>
+	<ctime>
+	<algorithm>
+

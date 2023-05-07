@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1682929823 source:c:\users\gdzvapatsva\desktop\level 3 technical programming\chapter 9 projects\lottos\main.cpp
+	<iostream>
+	<ctime>
+	<algorithm>
+
